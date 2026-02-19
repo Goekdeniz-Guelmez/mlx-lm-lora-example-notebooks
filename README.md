@@ -69,9 +69,19 @@ cd mlx-lm-lora-example-notebooks
 pip install -U mlx-lm-lora
 ```
 
-3. Open the notebook you want to try:
+3. Install jupyter:
 ```bash
-jupyter notebook finetuning/Qwen3_4B_Instruct.ipynb
+pip install -U jupyter
+```
+
+3. Install wandb:
+```bash
+pip install -U wandb
+```
+
+4. Open the notebook you want to try:
+```bash
+jupyter notebook finetuning/Qwen3_4B_Instruct_32k.ipynb
 ```
 
 Or use VS Code with the Jupyter extension for the best experience!
